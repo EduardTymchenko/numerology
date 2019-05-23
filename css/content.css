@@ -1,0 +1,62 @@
+.epigraph{
+    margin-left: auto;
+    max-width: 250px;
+}
+.epigraph p{
+    margin-top: 0;
+    margin-bottom: 0;
+    font-family: 'Pacifico', cursive;  
+}
+.epigraph .sign{
+    font-size: 14px;
+    margin-bottom: 0;
+    text-align: right;
+}
+
+.school{
+    text-align: center;
+    /* position: relative; */
+}
+.school .school_name{
+    margin-right: 20px;
+   display: inline-block; 
+   vertical-align: middle;
+   /* outline: 1px solid; */
+}
+.school .school_photo{
+    margin-top: 10px;
+    display: inline-block;
+    background-image: url('https://picua.org/images/2019/05/19/b8f34a83088ba125b38e310168c61d8c.jpg');
+    background-size: cover;
+    height: 290px;
+    width: 290px;
+    border-radius: 50%;
+   vertical-align: middle;
+    /* outline: 1px solid; */
+}
+.school .school_name p{
+    font-family: 'El Messiri', sans-serif;
+    text-align: center;
+    margin: 0;
+}
+.school .school_name .name_str_one{
+    font-size: 40px;
+    font-weight: 500;
+}
+.school .school_name .name_str_three{
+    font-size: 40px;
+    font-weight: 700;
+}
+.school .school_name .name_str_four{
+    font-size: 20px;
+    font-weight: 700;
+}
+.about_founder{
+    margin-top: 10px;
+    border-radius: 10px;
+    background: linear-gradient(to bottom right, rgb(166, 166, 236),rgb(227, 238, 243));
+}
+.about_founder p{
+    text-align: center;
+    font-size: 20px;
+}

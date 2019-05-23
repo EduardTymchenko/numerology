@@ -1,0 +1,129 @@
+header{
+    background-image: url('https://picua.org/images/2019/05/19/f5e2998b93527cc4a2d950084eebf600.jpg'); 
+    /* background-color: darkblue; */
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+.main-nav{
+    text-align: right;
+    /* для логотипа .logo */
+    position: relative; 
+}
+.main-nav ul{
+    display: inline-block;
+    text-align: left;
+    width: 90%;
+
+}
+.main-nav ul li {
+    display: inline-block;
+    padding: 10px;
+    
+}
+.main-nav ul li:hover {
+background-color: rgb(3, 78, 78);
+}
+
+.main-nav ul li:last-child{
+    float: right;
+}
+.main-nav ul li a{
+    
+    font-weight: bold;
+    color: white;
+}
+.menu__burger{
+    display: none;
+    width: 45px;
+    height: 35px;
+    position: relative;
+    cursor: pointer;
+}
+.menu__burger span{
+    display: block;
+    position: absolute;
+    height: 9px;
+    width: 100%;
+    /* background: #333333; */
+    background: white;
+    border-radius: 9px;
+    opacity: 1;
+    left: 0;
+    transform: rotate(0deg);
+    transition: .25s ease-in-out;
+}
+.menu__burger span:nth-child(1) {
+    top: 0px;
+}
+
+.menu__burger span:nth-child(2), .menu__burger span:nth-child(3) {
+    top: 13px;
+}
+
+.menu__burger span:nth-child(4) {
+    top: 26px;
+}
+
+.main-nav.menu_state_open .menu__burger span:nth-child(1) {
+    top: 18px;
+    width: 0%;
+    left: 50%;
+}
+
+.main-nav.menu_state_open .menu__burger span:nth-child(2) {
+    transform: rotate(45deg);
+}
+
+.main-nav.menu_state_open .menu__burger span:nth-child(3) {
+    transform: rotate(-45deg);
+}
+
+.main-nav.menu_state_open .menu__burger span:nth-child(4) {
+    top: 18px;
+    width: 0%;
+    left: 50%;
+}
+
+.main-nav.menu_state_open ul {
+    display: block;  
+}
+@media screen and (max-width: 999px) {
+    .menu__burger{
+      display: inline-block;
+    }
+    .main-nav ul{
+    position: fixed;
+    display: none;
+    top: 0;
+    right: 0;
+    left: 0;
+    margin-top: 52px;
+    background-image: url('https://picua.org/images/2019/05/19/f5e2998b93527cc4a2d950084eebf600.jpg'); 
+
+    /* background-color: cornflowerblue; */
+    /* background-color: rgba(0, 0, 0, 0.8); */
+    z-index: 1000;
+    overflow: auto;
+   
+    }
+    .main-nav ul li{
+    display: block;
+    padding: 10px 0;
+    text-align: left;
+    color: #ffffff;
+    
+    }
+}
+
+.logo{
+    display: inline-block;
+    height: 50px;
+    width: 50px;
+    background-image: url(https://picua.org/images/2019/05/12/bd2c2d0132e0fc40203c0fbfba84a68e.png);
+    background-size: cover;
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    /* outline: 1px solid; */
+}
