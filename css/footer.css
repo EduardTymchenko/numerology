@@ -3,3 +3,18 @@ footer {
     color: white;
     /* box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22); */
 }
+
+footer .copyright{
+   text-align: center;
+   font-size: 12px;
+   background-color: black;
+}
+footer .copyright p{
+    margin: 0;
+}
+footer .copyright a{
+    color: dodgerblue;
+}
+.adress_company, .mail_company{
+    width: 50%;
+}

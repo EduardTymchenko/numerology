@@ -1,6 +1,8 @@
 header{
     background-image: url('https://picua.org/images/2019/05/19/f5e2998b93527cc4a2d950084eebf600.jpg'); 
-    /* background-color: darkblue; */
+    z-index: 1;
+    position: fixed;
+    width: 100%;
     box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
 }
 .main-nav{
