@@ -19,7 +19,7 @@ footer .sn-icons .fb, .twiter, .telegram{
 footer .social-nets .sn-icons a::before {
     content: "";
     display: block;
-    background-image: url(../img/sprite.png);
+    background-image: url(https://picua.org/images/2019/05/30/adb5fe08190cba0e46e9c6d0983aabcc.png);
     height: 36px;
     width: 36px;
 }
