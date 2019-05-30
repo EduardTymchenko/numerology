@@ -65,6 +65,7 @@
 .panel{
     margin: 0 5px ;
     background-color:  white;
+    cursor:pointer;
 }
 .panel-heading {
     border-bottom: 3px solid black;

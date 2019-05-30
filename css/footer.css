@@ -4,17 +4,73 @@ footer {
     /* box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22); */
 }
 
+footer .social-nets{
+    margin-top: 50px;
+    background: #342f52;
+	border-radius: 20px;
+	box-shadow: inset rgba(255,255,255,0.2) 8px  8px 18px 5px,
+	            inset rgba(0,0,0,0.5)      -8px -8px 18px 5px;
+
+}
+footer .sn-icons .fb, .twiter, .telegram{
+     display: inline-block;
+     margin: 0 10px;
+}
+footer .social-nets .sn-icons a::before {
+    content: "";
+    display: block;
+    background-image: url(../img/sprite.png);
+    height: 36px;
+    width: 36px;
+}
+footer .social-nets .sn-icons .fb a::before{
+    background-position: -86px -1px;
+}
+footer .social-nets .sn-icons .fb a:hover::before{
+    background-position: -86px -213px;
+}
+footer .social-nets .sn-icons .twiter a::before{
+    background-position: -130px -1px;
+}
+footer .social-nets .sn-icons .twiter a:hover::before{
+    background-position: -130px -213px;
+}
+footer .social-nets .sn-icons .telegram a::before{
+    background-position: -86px -130px;
+}
+footer .social-nets .sn-icons .telegram a:hover::before{
+    background-position: -86px -342px;
+}
+
+footer fieldset{
+    text-align: left;
+}
+
+footer fieldset label{
+    
+    display:inline-block;
+    width:110px;
+    vertical-align: top;
+}
+footer fieldset input{
+    width:300px;
+}
+
 footer .copyright{
    text-align: center;
    font-size: 12px;
    background-color: black;
 }
 footer .copyright p{
+    padding: 4px 0;
     margin: 0;
 }
 footer .copyright a{
     color: dodgerblue;
 }
 .adress_company, .mail_company{
-    width: 50%;
+    text-align: center;
+    flex-grow: 2;
+    flex-basis: 400px;
+    padding: 0 15px;
 }

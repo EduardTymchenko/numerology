@@ -48,6 +48,7 @@ ul{
 
 .bloks_line{
 display: flex;
+justify-content: center;
 }
 .wrap {
     flex-wrap: wrap;

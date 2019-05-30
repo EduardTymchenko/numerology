@@ -118,23 +118,30 @@
             <div class="adress_company">
                 <p>Мы всегда на связи для вас!</p>
                 <p>По вопросам проведения мероприятий в вашем городе  и индивидуальных консультаций свяжитесь с нами</p>
-            <p>Наши контакты: Telegram | Viber | WatsApp +38 095 491 01 04 Екатерина</p>
-            <span>samoistseleniye.lichnosti@gmail.com</span>
-            <div class="socseti">
-                <p>Мы соц сетях:</p>
-                <div class="socseti-iconki"></div>
+            <p>Наши контакты: Telegram | Viber | WatsApp +38 050 000 00 00 Влад</p>
+            <span>mail@gmail.com</span>
+            <div class="social-nets">
+                <p>Мы в соц. сетях:</p>
+                <div class="sn-icons">
+                    <div class="fb"><a href="#"></a></div>
+                    <div class="twiter"><a href="#"></a></div>
+                    <div class="telegram"><a href="#"></a></div>
+                </div>
             </div>
         </div>
             <div class="mail_company">
                 <div class="head_form">
-                    <p>Возник вопрос, заказать книгу, организовать школу в вашем городе или Вы хотите оставить пожелание
+                    <p>Возник вопрос, организовать школу в вашем городе или Вы хотите оставить пожелание
                         по поводу работы сайта, свяжитесь с нами, заполнив простую форму:</p>
                 </div>
-                <form>
+                <form action="#" method="POST">
                     <fieldset>
                         <legend>Напишите нам</legend>
-                        <p><label for="name">Имя <em>*</em></label><input type="text" id="name"></p>
-                        <p><label for="email">E-mail</label><input type="email" id="email"></p>
+                        <p><label for="name">Ваше имя * </label><input type="text" id="name" required></p>
+                        <p><label for="email">E-mail * </label><input type="email" id="email" placeholder="mail@mail.com" required ></p>
+                        <p><label for="message">Сообщение * </label><textarea cols="40" rows="5" required></textarea></p>
+                        <p><label for="phone">Телефон </label><input type="tel" id="phone" placeholder="+38 (050) 000-00-00"></p>
+                        
                     </fieldset>
                     <p><input type="submit" value="Отправить"></p>
                 </form>
